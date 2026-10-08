@@ -1,0 +1,1 @@
+['background-logo@fedorahosted.org', 'ding@rastersoft.com', 'clipboard-indicator@tudmotu.com', 'arcmenu@arcmenu.com', 'dash-to-panel@jderose9.github.com']

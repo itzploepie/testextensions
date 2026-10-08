@@ -1,0 +1,36 @@
+[arcmenu]
+force-menu-location='BottomCentered'
+icon-size-apps=-1
+icon-size-buttons=-1
+icon-size-categories=-1
+icon-size-misc=-1
+icon-size-shortcuts=-1
+menu-button-icon='resource:///org/gnome/shell/extensions/arcmenu/icons/scalable/actions/distro-fedora-symbolic.svg'
+menu-layout='11'
+multi-monitor=true
+prefs-visible-page=0
+search-entry-border-radius=(true, 25)
+update-notifier-project-version=74
+
+[dash-to-panel]
+animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
+appicon-margin=2
+appicon-padding=4
+dot-position='BOTTOM'
+dot-style-focused='DOTS'
+dot-style-unfocused='DOTS'
+extension-version=74
+global-border-radius=2
+hotkeys-overlay-combo='TEMPORARILY'
+panel-anchors='{"RHT-0x00000000":"MIDDLE"}'
+panel-element-positions='{"RHT-0x00000000":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"rightBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"centerMonitor"},{"element":"centerBox","visible":false,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
+panel-lengths='{}'
+panel-positions='{}'
+panel-sizes='{"RHT-0x00000000":40}'
+panel-top-bottom-padding=4
+prefs-opened=false
+trans-use-custom-bg=false
+window-preview-title-position='TOP'
+
+[ding]
+check-x11wayland=true
