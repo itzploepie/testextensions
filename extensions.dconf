@@ -1,0 +1,54 @@
+[arcmenu]
+eleven-layout-extra-shortcuts=[{'id': 'org.gnome.Nautilus.desktop'}, {'id': 'org.gnome.Settings.desktop'}, {'id': 'org.gnome.Ptyxis.desktop'}]
+force-menu-location='BottomCentered'
+icon-size-apps=-1
+icon-size-buttons=-1
+icon-size-categories=-1
+icon-size-misc=-1
+icon-size-shortcuts=-1
+menu-button-icon='resource:///org/gnome/shell/extensions/arcmenu/icons/scalable/actions/distro-fedora-symbolic.svg'
+menu-layout='11'
+prefs-visible-page=0
+recently-installed-apps=['firefox.desktop', 'ca.desrt.dconf-editor.desktop']
+search-entry-border-radius=(true, 25)
+update-notifier-project-version=74
+
+[chromaleon]
+accent-color='#e04c2e'
+custom-color=true
+recolor-folders=true
+user-themes-warning=false
+
+[dash-to-panel]
+animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
+appicon-margin=2
+appicon-padding=4
+dot-position='BOTTOM'
+dot-style-focused='DOTS'
+dot-style-unfocused='DOTS'
+extension-version=74
+global-border-radius=2
+hotkeys-overlay-combo='TEMPORARILY'
+panel-anchors='{"AUO-0x00000000":"MIDDLE","SAM-0x3042524b":"MIDDLE"}'
+panel-element-positions='{"AUO-0x00000000":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"rightBox","visible":true,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"centerMonitor"},{"element":"taskbar","visible":true,"position":"centerMonitor"},{"element":"centerBox","visible":false,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}],"SAM-0x3042524b":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"rightBox","visible":true,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"centerMonitor"},{"element":"taskbar","visible":true,"position":"centerMonitor"},{"element":"centerBox","visible":false,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
+panel-lengths='{}'
+panel-positions='{}'
+panel-side-margins=0
+panel-sizes='{"AUO-0x00000000":40,"SAM-0x3042524b":40}'
+panel-top-bottom-margins=0
+panel-top-bottom-padding=2
+prefs-opened=false
+trans-bg-color='#36363a'
+trans-use-custom-bg=true
+trans-use-custom-gradient=false
+window-preview-title-position='TOP'
+
+[ding]
+check-x11wayland=true
+dark-text-in-labels=false
+icon-size='standard'
+show-network-volumes=false
+use-nemo=false
+
+[vitals]
+hot-sensors=['_memory_usage_', '__temperature_avg__']
