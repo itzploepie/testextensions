@@ -11,7 +11,6 @@ from gi.repository import Gio, GLib
 DCONF_PATH = "/org/gnome/shell/extensions/dash-to-panel/"
 PANEL_SIZE = 40
 
-# (element, visible, position), copied from your dump
 ELEMENTS = [
     ("showAppsButton", False, "stackedTL"),
     ("activitiesButton", False, "stackedTL"),
@@ -34,12 +33,11 @@ def monitor_ids():
         "GetCurrentState",
         None, None, Gio.DBusCallFlags.NONE, -1, None,
     ).unpack()
-    # state[1] is the monitor list, each entry starts with
-    # (connector, vendor, product, serial)
+
     specs = [m[0] for m in state[1]]
     ids = [f"{s[1]}-{s[3]}" for s in specs]
     if len(set(ids)) != len(ids):
-        # two identical monitors: fall back to the connector name
+
         ids = [s[0] for s in specs]
     return ids
 
