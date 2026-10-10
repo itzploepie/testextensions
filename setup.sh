@@ -32,9 +32,9 @@ gsettings set org.gnome.shell enabled-extensions "['Vitals@CoreCoding.com', 'arc
 echo Done, log out and back in to enable the extensions.
 
 # make DTP desktop entry
-mkdir /dtp-monitors
-cp dtp-monitors.py /dtp-monitors
-cp monitor.png /dtp-monitors
+mkdir ~/dtp-monitors
+cp dtp-monitors.py ~/dtp-monitors
+cp monitor.png ~/dtp-monitors
 cp DTP-conf.desktop ~/.local/share/applications
 
 
