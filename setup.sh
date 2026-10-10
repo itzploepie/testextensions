@@ -16,17 +16,14 @@ done
 
 echo starting script
 
-sudo dnf remove gnome-weather gnome-tour gnome-font-viewer gnome-contacts gnome-connections gnome-clocks gnome-characters gnome-calendar gnome-calculator gnome-boxes libreoffice-core
-sudo dnf install python3 fastfetch gnome-tweaks
+sudo dnf remove gnome-weather gnome-tour gnome-font-viewer gnome-contacts gnome-connections gnome-clocks gnome-characters gnome-calendar gnome-calculator gnome-boxes gnome-maps gnome-help gnome-system-monitor libreoffice-core mediawriter simple-scan malcontent-control
+sudo dnf copr enable atim/resources
+sudo dnf install python3 fastfetch gnome-tweaks gnome-extensions-app resources
 sudo dnf autoremove
 sudo dnf update
 gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
 mv -f extensions ~/.local/share/gnome-shell
 dconf load /org/gnome/shell/extensions/ < extensions.dconf
 python3 dtp-monitors.py
-gnome-extensions enable Vitals@CoreCoding.com
-gnome-extensions enable arcmenu@arcmenu.com
-gnome-extensions enable dash-to-panel@jderose9.github.com
-gnome-extensions enable ding@rastersoft.com
-gnome-extensions enable user-accent-colors@fabito02
+gsettings set org.gnome.shell enabled-extensions "['Vitals@CoreCoding.com', 'arcmenu@arcmenu.com', 'dash-to-panel@jderose9.github.com', 'ding@rastersoft.com', 'user-accent-colors@fabito02']"
 echo Done, log out and back in to enable the extensions.
