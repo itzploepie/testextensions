@@ -33,8 +33,9 @@ echo Done, log out and back in to enable the extensions.
 
 # make DTP desktop entry
 mkdir ~/dtp-monitors
+mkdir -p ~/.local/share/icons/hicolor/256x256/apps
 cp dtp-monitors.py ~/dtp-monitors
-cp monitor.png ~/dtp-monitors
+cp monitor.png ~/.local/share/icons/hicolor/256x256/apps
 cp DTP-conf.desktop ~/.local/share/applications
 
 
