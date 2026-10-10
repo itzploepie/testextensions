@@ -1,6 +1,5 @@
 [Desktop Entry]
 Type=application
-Name=Dash to panel conf
+Name=DTP conf
 Exec=sh -c "~/dtp-monitors/dtp-monitors.py"
-Icon=sh -c "~/dtp-monitors/monitor.png"
 Terminal=false
