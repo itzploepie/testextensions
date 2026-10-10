@@ -13,6 +13,11 @@ recently-installed-apps=['firefox.desktop', 'ca.desrt.dconf-editor.desktop']
 search-entry-border-radius=(true, 25)
 update-notifier-project-version=74
 
+[chromaleon]
+custom-color=true
+recolor-folders=true
+user-themes-warning=false
+
 [clipboard-indicator]
 blink-icon-on-copy=true
 cache-size=10
