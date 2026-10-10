@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=application
+Name=Dash to panel conf
+Exec=/dtp-monitors/dtp-monitors.py
+Icon=/dtp-monitors/monitor.png
+Terminal=false
