@@ -34,6 +34,7 @@ echo Done, log out and back in to enable the extensions.
 # make DTP desktop entry
 mkdir ~/dtp-monitors
 cp dtp-monitors.py ~/dtp-monitors
+chmod +x ~/dtp-monitors/dtp-monitors.py
 cp DTP-conf.desktop ~/.local/share/applications
 
 
