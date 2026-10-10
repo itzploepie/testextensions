@@ -7,6 +7,7 @@ Dash to panel, Arcmenu, DING, Chromaleon, Vitals
 git clone https://github.com/itzploepie/testextensions.git
 cd testextensions
 chmod +x setup.sh
+chmod +x setup2.sh
 ./setup.sh
 ```
 It is tested on fedora workstation 44.
