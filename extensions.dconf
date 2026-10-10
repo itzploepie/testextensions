@@ -13,12 +13,6 @@ recently-installed-apps=['firefox.desktop', 'ca.desrt.dconf-editor.desktop']
 search-entry-border-radius=(true, 25)
 update-notifier-project-version=74
 
-[chromaleon]
-accent-color='#e04c2e'
-custom-color=true
-recolor-folders=true
-user-themes-warning=false
-
 [dash-to-panel]
 animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
 appicon-margin=2
