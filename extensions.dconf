@@ -13,6 +13,15 @@ recently-installed-apps=['firefox.desktop', 'ca.desrt.dconf-editor.desktop']
 search-entry-border-radius=(true, 25)
 update-notifier-project-version=74
 
+[clipboard-indicator]
+blink-icon-on-copy=true
+cache-size=10
+confirm-pinned-delete=true
+disable-down-arrow=true
+pinned-on-bottom=true
+show-edit-button=false
+show-tag-button=false
+
 [dash-to-panel]
 animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
 appicon-margin=2
