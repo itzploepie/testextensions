@@ -28,7 +28,7 @@ sudo dnf update
 mv -f extensions ~/.local/share/gnome-shell
 dconf load /org/gnome/shell/extensions/ < extensions.dconf
 python3 dtp-monitors.py
-gsettings set org.gnome.shell enabled-extensions "['Vitals@CoreCoding.com', 'arcmenu@arcmenu.com', 'dash-to-panel@jderose9.github.com', 'ding@rastersoft.com', 'user-accent-colors@fabito02']"
+gsettings set org.gnome.shell enabled-extensions "['Vitals@CoreCoding.com', 'arcmenu@arcmenu.com', 'dash-to-panel@jderose9.github.com', 'ding@rastersoft.com', 'user-accent-colors@fabito02', 'clipboard-indicator@tudmotu.com']"
 echo Done, log out and back in to enable the extensions.
 
 # make DTP desktop entry
