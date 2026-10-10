@@ -21,7 +21,7 @@ sudo dnf install python3 fastfetch gnome-tweaks
 sudo dnf autoremove
 sudo dnf update
 gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
-mv -i extensions ~/.local/share/gnome-shell
+mv -f extensions ~/.local/share/gnome-shell
 dconf load /org/gnome/shell/extensions/ < extensions.dconf
 python3 dtp-monitors.py
 gnome-extensions enable Vitals@CoreCoding.com
@@ -29,3 +29,4 @@ gnome-extensions enable arcmenu@arcmenu.com
 gnome-extensions enable dash-to-panel@jderose9.github.com
 gnome-extensions enable ding@rastersoft.com
 gnome-extensions enable user-accent-colors@fabito02
+echo Done, log out and back in to enable the extensions.
